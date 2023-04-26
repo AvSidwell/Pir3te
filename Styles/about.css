@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.navigate {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: rgba(56, 54, 54, 0.975);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigate li {
+    float: left;
+    padding: 11px;
+    border-right: 1px solid whitesmoke;
+}
+
+.navigate li:last-child {
+    border-left: 1px solid whitesmoke;
+    border-right: none;
+}
+
+.navigate li a {
+    display: block;
+    text-decoration: none;
+}
+
+.navigate li:hover {
+    background-color: aliceblue;
+    color: black;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#right {
+    float: right;
+}
+
+#logo {
+    height: 90%;
+    float: left;
+}
